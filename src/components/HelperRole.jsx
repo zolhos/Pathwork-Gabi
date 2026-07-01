@@ -4,7 +4,7 @@ export default function HelperRole() {
   const { helperInfo } = content;
 
   return (
-    <section className="helper-section" id="helper">
+    <section className="helper-section" id="helper" data-intent="authority">
       <div className="container">
         <div className="section-header text-center">
           <span className="badge">O FACILITADOR</span>

@@ -4,7 +4,7 @@ export default function TrustLayer() {
   const { testimonials } = content;
 
   return (
-    <section className="trust-section" id="trust">
+    <section className="trust-section" id="trust" data-intent="trust-signals">
       <div className="container">
         <div className="section-header text-center">
           <span className="badge">DADOS DE CONFIANÇA</span>

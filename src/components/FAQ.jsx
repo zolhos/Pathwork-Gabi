@@ -4,7 +4,7 @@ export default function FAQ() {
   const { faqs } = content;
 
   return (
-    <section className="faq-section" id="faq">
+    <section className="faq-section" id="faq" data-intent="faq">
       <div className="container faq-container">
         <div className="section-header text-center">
           <span className="badge">DÚVIDAS FREQUENTES</span>

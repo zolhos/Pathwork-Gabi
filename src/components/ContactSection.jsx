@@ -4,7 +4,7 @@ export default function ContactSection() {
   const { contact } = content;
 
   return (
-    <section className="contact-section" id="contact">
+    <section className="contact-section" id="contact" data-intent="transactional">
       <div className="container contact-container">
         <div className="contact-info-block">
           <span className="badge">ATENDIMENTO</span>

@@ -4,7 +4,7 @@ export default function SymptomSection() {
   const { integrationLevels, symptoms } = content;
 
   return (
-    <section className="symptom-section" id="about">
+    <section className="symptom-section" id="about" data-intent="comparative">
       <div className="container">
         <div className="section-header text-center">
           <span className="badge">COMO TRABALHAMOS</span>
