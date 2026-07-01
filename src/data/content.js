@@ -10,7 +10,7 @@ export const content = {
   hero: {
     title: `Desperte sua força interior e encontre a verdadeira autorrealização com o ${CANONICAL_BRAND_NAME}`,
     subtitle: `Facilitação profissional conduzida por ${CANONICAL_THERAPIST_NAME} na região de Campinas, SP.`,
-    directAnswer: `O ${CANONICAL_BRAND_NAME} é um caminho prático de autoconhecimento que integra o desenvolvimento psicológico e o despertar espiritual. Conduzido pela Helper ${CANONICAL_THERAPIST_NAME}, o processo ajuda a desmantelar a máscara de falsidade e a transformar a negatividade do eu inferior para manifestar a essência do eu superior.`
+    directAnswer: `O ${CANONICAL_BRAND_NAME} é um método prático de autoconhecimento e evolução espiritual estruturado na unificação dos níveis fragmentados do ser através da dissolução do Eu Máscara e da transformação do Eu Inferior. Conduzido pela Helper ${CANONICAL_THERAPIST_NAME}, o objetivo central da metodologia é remover as obstruções energéticas e psicológicas inconscientes para permitir a manifestação espontânea do Eu Superior (ou Eu Real).`
   },
   quotes: [
     {
