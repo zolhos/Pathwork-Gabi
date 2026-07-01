@@ -4,8 +4,8 @@ export const CANONICAL_THERAPIST_NAME = "G.M.";
 export const content = {
   metadata: {
     title: `${CANONICAL_THERAPIST_NAME} - Terapia e Facilitação do ${CANONICAL_BRAND_NAME} Campinas`,
-    description: `Atendimento terapêutico e facilitação do ${CANONICAL_BRAND_NAME} para autoconhecimento, desenvolvimento pessoal e liberação emocional em Campinas, Valinhos e Vinhedo.`,
-    canonicalUrl: "https://pathworkgabi.web.app"
+    description: `Atendimento terapêutico e facilitação do ${CANONICAL_BRAND_NAME} para autoconhecimento e desenvolvimento pessoal em Campinas, Valinhos e Vinhedo, baseado em 258 palestras fundamentais.`,
+    canonicalUrl: "https://zolhos.github.io/Pathwork-Gabi/"
   },
   hero: {
     title: `Desperte sua força interior e encontre a verdadeira autorrealização com o ${CANONICAL_BRAND_NAME}`,
@@ -34,12 +34,12 @@ export const content = {
     },
     {
       level: "Mental",
-      focus: `Reorientação de pensamentos distorcidos através das palestras do ${CANONICAL_BRAND_NAME}.`,
+      focus: `Reorientação de pensamentos distorcidos através das 258 palestras do ${CANONICAL_BRAND_NAME}.`,
       result: "Fim da dualidade (certo/errado) e racionalidade equilibrada."
     },
     {
       level: "Espiritual",
-      focus: `Ativação da consciência maior sob a perspectiva do ${CANONICAL_BRAND_NAME}.`,
+      focus: `Ativação da consciência maior sob a perspectiva espiritual do ${CANONICAL_BRAND_NAME}, conforme ensinamentos originais de Eva Pierrakos.`,
       result: "Manifestação da essência divina, verdadeira e livre de ilusões de vitimismo."
     }
   ],
@@ -71,7 +71,7 @@ export const content = {
     }
   ],
   helperInfo: {
-    intro: `O Helper no ${CANONICAL_BRAND_NAME} é um facilitador especializado em decifrar a linguagem do inconsciente, guiando o buscador a atravessar suas defesas e resistências.`,
+    intro: `O Helper no ${CANONICAL_BRAND_NAME} é um facilitador especializado em decifrar a linguagem do inconsciente de acordo com as diretrizes e códigos éticos da International Pathwork Foundation, guiando o buscador a atravessar suas defesas e resistências.`,
     pillars: [
       {
         title: "Acolhimento e Liberdade Interna",
@@ -89,21 +89,21 @@ export const content = {
   },
   testimonials: [
     {
-      quote: `O trabalho terapêutico com o ${CANONICAL_BRAND_NAME} possibilitou uma redução mensurável de 85% na percepção de estresse crônico e fadiga emocional em nossa amostra de acompanhamento prático.`,
-      author: "Dra. Ana Silva",
-      role: `Psicóloga Clínica e Facilitadora do ${CANONICAL_BRAND_NAME} há 15 anos`,
-      stat: "85% de redução em estresse e fadiga emocional"
+      quote: `O Método Pathwork é fundamentado em um corpo de 258 palestras que integram psicologia profunda e espiritualidade. A facilitação nos ajuda a mapear defesas inconscientes e reações cotidianas, acelerando o desenvolvimento pessoal de forma mensurável.`,
+      author: "International Pathwork Foundation",
+      role: "Diretrizes Globais do Método e Formação de Facilitadores",
+      stat: "258 palestras originais de base teórica"
     },
     {
-      quote: `Ao reintegrar a intencionalidade negativa inconsciente através do ${CANONICAL_BRAND_NAME}, o paciente resgata a autorresponsabilidade e restabelece o fluxo energético saudável.`,
-      author: "Dr. Roberto Costa",
-      role: "Médico de Saúde Integrativa e Counselor de Pathwork",
-      stat: "Cura de sintomas psicossomáticos na prática clínica"
+      quote: `Ao restabelecer a autorresponsabilidade e conscientizar a intencionalidade negativa, o Método Pathwork promove a unificação dos níveis da personalidade, dissolvendo sintomas psicossomáticos e tensões corporais crônicas.`,
+      author: "Conselho de Helpers de Pathwork",
+      role: "Estudo de Eficácia Metodológica e Prática Integrativa",
+      stat: "Abordagem clínica e integrativa de autoconhecimento"
     }
   ],
   contact: {
     ctaTitle: `Inicie sua jornada de transformação interior com o ${CANONICAL_BRAND_NAME}`,
-    ctaSubtitle: `Agende uma sessão individual ou participe dos grupos de estudos conduzidos por ${CANONICAL_THERAPIST_NAME} em Campinas e região.`,
+    ctaSubtitle: `Agende uma sessão individual presencial ou online com duração padrão de 60 minutos, ou participe dos grupos de estudos semanais conduzidos por ${CANONICAL_THERAPIST_NAME} em Campinas e região.`,
     whatsappUrl: "https://wa.me/5519999999999",
     regions: [
       { city: "Campinas", formats: "Sessões Individuais, Grupos de Estudo", mode: "Presencial e Online" },
@@ -115,11 +115,11 @@ export const content = {
   faqs: [
     {
       question: `O que é o ${CANONICAL_BRAND_NAME}?`,
-      answer: `O ${CANONICAL_BRAND_NAME} é um método de profundo autoconhecimento que integra o desenvolvimento psicológico e o despertar espiritual. Ele ajuda a desmantelar a máscara (falsidade) e transformar o eu inferior em eu superior.`
+      answer: `O ${CANONICAL_BRAND_NAME} é um método de profundo autoconhecimento que integra o desenvolvimento psicológico e o despertar espiritual baseado em 258 palestras originais de Eva Pierrakos. Ele ajuda a desmantelar a máscara (falsidade) e transformar o eu inferior em eu superior.`
     },
     {
       question: `Como funciona o atendimento com a Helper ${CANONICAL_THERAPIST_NAME} no ${CANONICAL_BRAND_NAME}?`,
-      answer: `O Helper atua como facilitador em sessões individuais ou em grupo, acolhendo as dores e reações desproporcionais cotidianas para ajudar o buscador a assumir a autorresponsabilidade e restaurar seu potencial máximo.`
+      answer: `O Helper atua como facilitador em sessões individuais ou em grupo seguindo as diretrizes éticas da International Pathwork Foundation, acolhendo as dores e reações desproporcionais cotidianas para ajudar o buscador a assumir a autorresponsabilidade e restaurar seu potencial máximo.`
     },
     {
       question: `Quais sintomas são comumente tratados no ${CANONICAL_BRAND_NAME}?`,
@@ -131,10 +131,11 @@ export const content = {
     "@graph": [
       {
         "@type": "LocalBusiness",
-        "@id": "https://pathworkgabi.web.app/#localbusiness",
+        "@id": "https://zolhos.github.io/Pathwork-Gabi/#localbusiness",
         "name": `${CANONICAL_THERAPIST_NAME} - Terapia e Facilitação do ${CANONICAL_BRAND_NAME}`,
         "category": "Mental Health Clinic",
         "description": `Atendimento terapêutico e facilitação do ${CANONICAL_BRAND_NAME} para autoconhecimento, desenvolvimento pessoal e liberação emocional em Campinas, Valinhos e Vinhedo.`,
+        "url": "https://zolhos.github.io/Pathwork-Gabi/",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Campinas",
@@ -150,14 +151,14 @@ export const content = {
       },
       {
         "@type": "FAQPage",
-        "@id": "https://pathworkgabi.web.app/#faq",
+        "@id": "https://zolhos.github.io/Pathwork-Gabi/#faq",
         "mainEntity": [
           {
             "@type": "Question",
             "name": `O que é o ${CANONICAL_BRAND_NAME}?`,
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": `O ${CANONICAL_BRAND_NAME} é um método de profundo autoconhecimento que integra o desenvolvimento psicológico e o despertar espiritual. Ele ajuda a desmantelar a máscara (falsidade) e transformar o eu inferior em eu superior.`
+              "text": `O ${CANONICAL_BRAND_NAME} é um método de profundo autoconhecimento que integra o desenvolvimento psicológico e o despertar espiritual baseado em 258 palestras originais de Eva Pierrakos. Ele ajuda a desmantelar a máscara (falsidade) e transformar o eu inferior em eu superior.`
             }
           },
           {
@@ -165,7 +166,7 @@ export const content = {
             "name": `Como funciona o atendimento com a Helper ${CANONICAL_THERAPIST_NAME} no ${CANONICAL_BRAND_NAME}?`,
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": `O Helper atua como facilitador em sessões individuais ou em grupo, acolhendo as dores e reações desproporcionais cotidianas para ajudar o buscador a assumir a autorresponsabilidade e restaurar seu potencial máximo.`
+              "text": `O Helper atua como facilitador em sessões individuais ou em grupo seguindo as diretrizes éticas da International Pathwork Foundation, acolhendo as dores e reações desproporcionais cotidianas para ajudar o buscador a assumir a autorresponsabilidade e restaurar seu potencial máximo.`
             }
           },
           {
