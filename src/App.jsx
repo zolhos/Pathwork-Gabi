@@ -1,6 +1,7 @@
 import SchemaMarkup from './components/SchemaMarkup';
 import Hero from './components/Hero';
 import SymptomSection from './components/SymptomSection';
+import TrustLayer from './components/TrustLayer';
 import HelperRole from './components/HelperRole';
 import ContactSection from './components/ContactSection';
 import FAQ from './components/FAQ';
@@ -19,6 +20,7 @@ export default function App() {
             <ul className="nav-menu">
               <li><a href="#hero" className="nav-link">Início</a></li>
               <li><a href="#about" className="nav-link">Sobre o Método</a></li>
+              <li><a href="#trust" className="nav-link">Evidências</a></li>
               <li><a href="#helper" className="nav-link">O Helper</a></li>
               <li><a href="#contact" className="nav-link">Atendimento</a></li>
               <li><a href="#faq" className="nav-link">Dúvidas</a></li>
@@ -31,6 +33,7 @@ export default function App() {
       <main>
         <Hero />
         <SymptomSection />
+        <TrustLayer />
         <HelperRole />
         <ContactSection />
         <FAQ />

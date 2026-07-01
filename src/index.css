@@ -504,25 +504,30 @@ section {
   gap: 16px;
 }
 
-.faq-item {
+details.faq-item {
   background-color: var(--color-bg-light);
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-md);
   overflow: hidden;
-  cursor: pointer;
   transition: var(--transition-smooth);
 }
 
-.faq-item:hover {
+details.faq-item:hover {
   border-color: hsla(262, 80%, 65%, 0.2);
 }
 
-.faq-question-bar {
+summary.faq-question-bar {
   padding: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+summary.faq-question-bar::-webkit-details-marker {
+  display: none;
 }
 
 .faq-question {
@@ -531,28 +536,94 @@ section {
 }
 
 .faq-icon-toggle {
-  font-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: var(--color-secondary);
-  line-height: 1;
+}
+
+.chevron-icon {
+  transition: transform 0.3s ease;
+}
+
+details[open] .chevron-icon {
+  transform: rotate(180deg);
 }
 
 .faq-answer-container {
-  max-height: 0;
-  opacity: 0;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 0 24px;
-  overflow: hidden;
-}
-
-.faq-item.active .faq-answer-container {
-  max-height: 200px;
-  opacity: 1;
-  padding-bottom: 24px;
+  padding: 0 24px 24px 24px;
+  border-top: 1px solid var(--color-border);
 }
 
 .faq-answer {
   font-size: 0.95rem;
   line-height: 1.6;
+  padding-top: 16px;
+}
+
+/* Trust Layer Section */
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.trust-card {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  padding: 40px;
+  position: relative;
+  transition: var(--transition-smooth);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trust-card:hover {
+  transform: translateY(-4px);
+  border-color: hsla(262, 80%, 65%, 0.3);
+  box-shadow: 0 12px 30px hsla(0, 0%, 0%, 0.3);
+}
+
+.trust-stat-badge {
+  background-color: hsla(172, 80%, 45%, 0.1);
+  border: 1px solid hsla(172, 80%, 45%, 0.2);
+  color: var(--color-secondary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 50px;
+  align-self: flex-start;
+  margin-bottom: 24px;
+}
+
+.trust-quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--color-text-main);
+  margin-bottom: 24px;
+}
+
+.trust-author-info {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--color-border);
+  padding-top: 16px;
+}
+
+.trust-author {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  font-style: normal;
+}
+
+.trust-role {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
 }
 
 /* Footer styling */
