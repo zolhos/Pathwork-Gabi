@@ -561,6 +561,24 @@ details[open] .chevron-icon {
   padding-top: 16px;
 }
 
+.faq-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.faq-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  background-color: hsla(172, 80%, 45%, 0.08);
+  border: 1px solid hsla(172, 80%, 45%, 0.15);
+  padding: 4px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
 /* Trust Layer Section */
 .trust-grid {
   display: grid;

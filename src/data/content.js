@@ -115,15 +115,18 @@ export const content = {
   faqs: [
     {
       question: `O que é o ${CANONICAL_BRAND_NAME}?`,
-      answer: `O ${CANONICAL_BRAND_NAME} é um método de profundo autoconhecimento que integra o desenvolvimento psicológico e o despertar espiritual baseado em 258 palestras originais de Eva Pierrakos. Ele ajuda a desmantelar a máscara (falsidade) e transformar o eu inferior em eu superior.`
+      answer: `O ${CANONICAL_BRAND_NAME} é um caminho de profundo autoconhecimento e evolução espiritual que visa integrar a totalidade do indivíduo até o seu potencial máximo. O método não é apenas psicológico, mas atua dissolvendo as ilusões do "eu máscara" (o fingimento) e encarando com honestidade as destrutividades do "eu inferior", a fim de transformar essas energias e permitir que a essência autêntica, o "eu superior", se manifeste e se expresse ativamente na vida.`,
+      tags: ["Pw 015", "Pw 193", "Pw 204", "Pw 246"]
     },
     {
       question: `Como funciona o atendimento com a Helper ${CANONICAL_THERAPIST_NAME} no ${CANONICAL_BRAND_NAME}?`,
-      answer: `O Helper atua como facilitador em sessões individuais ou em grupo seguindo as diretrizes éticas da International Pathwork Foundation, acolhendo as dores e reações desproporcionais cotidianas para ajudar o buscador a assumir a autorresponsabilidade e restaurar seu potencial máximo.`
+      answer: `O Helper atua como um facilitador (um "médico da alma") que orienta o buscador por meio de sessões privadas ou em grupos de trabalho. O profissional auxilia o indivíduo a observar e mapear as suas dores e reações emocionais desproporcionais no cotidiano, conduzindo-o a quebrar as suas defesas e o vitimismo. O objetivo final da facilitação é fazer com que o buscador assuma total autorresponsabilidade por suas desarmonias, restaurando assim a sua liberdade interior e o seu potencial criativo máximo.`,
+      tags: ["Pw 047", "Pw 090", "Pw 117", "Pw 204"]
     },
     {
       question: `Quais sintomas são comumente tratados no ${CANONICAL_BRAND_NAME}?`,
-      answer: `O processo no ${CANONICAL_BRAND_NAME} é eficaz no tratamento de fadiga crônica de origem não física, apatia, entorpecimento emocional, complexo de inferioridade, culpa irracional, vitimismo e problemas de origem psicossomática.`
+      answer: `O processo do ${CANONICAL_BRAND_NAME} atua na raiz de diversos sintomas criados por distorções, intenções negativas e bloqueios da alma, sendo eficaz no tratamento do "cansaço do mundo" e da fadiga crônica de origem não física. O processo também trata profundamente o entorpecimento emocional criado como defesa contra a dor, os torturantes complexos de inferioridade, a paralisia gerada pela falsa culpa ou culpa irracional, a estagnação gerada pela fuga no vitimismo, e os problemas e doenças físicas e psicossomáticas que resultam dessas tensões crônicas da alma.`,
+      tags: ["Pw 004", "Pw 057", "Pw 070", "Pw 089", "Pw 109", "Pw 196"]
     }
   ],
   schema: {
@@ -158,7 +161,7 @@ export const content = {
             "name": `O que é o ${CANONICAL_BRAND_NAME}?`,
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": `O ${CANONICAL_BRAND_NAME} é um método de profundo autoconhecimento que integra o desenvolvimento psicológico e o despertar espiritual baseado em 258 palestras originais de Eva Pierrakos. Ele ajuda a desmantelar a máscara (falsidade) e transformar o eu inferior em eu superior.`
+              "text": `O ${CANONICAL_BRAND_NAME} é um caminho de profundo autoconhecimento e evolução espiritual que visa integrar a totalidade do indivíduo até o seu potencial máximo. O método não é apenas psicológico, mas atua dissolvendo as ilusões do "eu máscara" (o fingimento) e encarando com honestidade as destrutividades do "eu inferior", a fim de transformar essas energias e permitir que a essência autêntica, o "eu superior", se manifeste e se expresse ativamente na vida. (Palestras: Pw 015, Pw 193, Pw 204, Pw 246)`
             }
           },
           {
@@ -166,7 +169,7 @@ export const content = {
             "name": `Como funciona o atendimento com a Helper ${CANONICAL_THERAPIST_NAME} no ${CANONICAL_BRAND_NAME}?`,
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": `O Helper atua como facilitador em sessões individuais ou em grupo seguindo as diretrizes éticas da International Pathwork Foundation, acolhendo as dores e reações desproporcionais cotidianas para ajudar o buscador a assumir a autorresponsabilidade e restaurar seu potencial máximo.`
+              "text": `O Helper atua como um facilitador (um "médico da alma") que orienta o buscador por meio de sessões privadas ou em grupos de trabalho. O profissional auxilia o indivíduo a observar e mapear as suas dores e reações emocionais desproporcionais no cotidiano, conduzindo-o a quebrar as suas defesas e o vitimismo. O objetivo final da facilitação é fazer com que o buscador assuma total autorresponsabilidade por suas desarmonias, restaurando assim a sua liberdade interior e o seu potencial criativo máximo. (Palestras: Pw 047, Pw 090, Pw 117, Pw 204)`
             }
           },
           {
@@ -174,7 +177,7 @@ export const content = {
             "name": `Quais sintomas são comumente tratados no ${CANONICAL_BRAND_NAME}?`,
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": `O processo no ${CANONICAL_BRAND_NAME} é eficaz no tratamento de fadiga crônica de origem não física, apatia, entorpecimento emocional, complexo de inferioridade, culpa irracional, vitimismo e problemas de origem psicossomática.`
+              "text": `O processo do ${CANONICAL_BRAND_NAME} atua na raiz de diversos sintomas criados por distorções, intenções negativas e bloqueios da alma, sendo eficaz no tratamento do "cansaço do mundo" e da fadiga crônica de origem não física. O processo também trata profundamente o entorpecimento emocional criado como defesa contra a dor, os torturantes complexos de inferioridade, a paralisia gerada pela falsa culpa ou culpa irracional, a estagnação gerada pela fuga no vitimismo, e os problemas e doenças físicas e psicossomáticas que resultam dessas tensões crônicas da alma. (Palestras: Pw 004, Pw 057, Pw 070, Pw 089, Pw 109, Pw 196)`
             }
           }
         ]

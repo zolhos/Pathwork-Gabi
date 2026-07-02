@@ -27,6 +27,13 @@ export default function FAQ() {
               </summary>
               <div className="faq-answer-container">
                 <p className="faq-answer">{faq.answer}</p>
+                {faq.tags && faq.tags.length > 0 && (
+                  <div className="faq-tags-container">
+                    {faq.tags.map((tag, tagIdx) => (
+                      <span className="faq-tag" key={tagIdx}>{tag}</span>
+                    ))}
+                  </div>
+                )}
               </div>
             </details>
           ))}
